@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     Container:{
         height:height,
         width:width,
-        backgroundColor:"white",
+        backgroundColor:"rgba(250,250,250,0.8)",
         
     },
     banner:{
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     ScrollView:{
     },
     Content:{
-        height:height * 0.8,
+        height:height * 0.89,
         width:width,
         
     }

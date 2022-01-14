@@ -20,7 +20,7 @@ function DrawerNavigator({navigation}) {
             <Icons name='notifications' color={"black"} size={28} />
         ),
         headerLeftContainerStyle:{paddingLeft:5},
-        headerRightContainerStyle:{paddingRight:5},
+        headerRightContainerStyle:{paddingRight:15},
         headerStatusBarHeight:30,
         drawerItemStyle:{
             borderRightColor:"#188e5e",
@@ -40,7 +40,16 @@ function DrawerNavigator({navigation}) {
         drawerStyle:{
             backgroundColor: '#EFEFEF',
         },
-        drawerStatusBarAnimation:"slide"
+        drawerStatusBarAnimation:"slide",
+        headerStyle:{
+            elevation:15,
+            backgroundColor:"white",
+            shadowColor:"grey",
+            shadowOffset:{
+                width:5,
+                height:5
+            }
+        }
     }
 
     return (

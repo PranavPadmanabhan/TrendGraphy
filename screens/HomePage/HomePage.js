@@ -23,7 +23,7 @@ function HomePage() {
             <View style={styles.Content}>
             <ScrollView 
             contentInsetAdjustmentBehavior='always'
-            contentInset={{bottom:100}}
+            contentInset={{bottom:50}}
             showsVerticalScrollIndicator={false}
             >
                 <ImageBackground imageStyle={{ borderRadius: 10 }} source={require('../../assets/images/online-class.jpg')} style={styles.banner} >
