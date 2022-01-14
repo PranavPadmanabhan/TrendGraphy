@@ -20,7 +20,6 @@ function HomePage() {
         }} 
         style={styles.Container}>
             {drawerVisibile && (<Drawer />)}
-            <CustomHeader OnMenuButtonPress={() => setDrawerVisibile(true)}/>
             <View style={styles.Content}>
             <ScrollView 
             contentInsetAdjustmentBehavior='always'

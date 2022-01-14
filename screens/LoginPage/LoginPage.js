@@ -17,7 +17,7 @@ function LoginPage({navigation}) {
         <TextInput  style={styles.Input}/>
         </View>
         <Text style={styles.forgotBtn}>Forgot Password?</Text>
-        <TouchableOpacity style={styles.Button} onPress={() => navigation.navigate('HomePage')}>
+        <TouchableOpacity style={styles.Button} onPress={() => navigation.navigate('HOME')}>
             <Text style={styles.ButtonText}>Login</Text>
         </TouchableOpacity>
         </View>
